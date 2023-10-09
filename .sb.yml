@@ -1,0 +1,12 @@
+type: 'node'
+version: '18'
+
+services:
+  db1:
+    type: 'mongodb'
+    size: 2Gi
+    backup: false
+  
+resources:
+  cpu: "1"
+  memory: "1Gi"
